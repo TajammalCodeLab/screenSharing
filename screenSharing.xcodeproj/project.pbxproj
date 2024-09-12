@@ -14,6 +14,9 @@
 		1F4E5B0E2C934A8B00E2E514 /* screenSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E5B0D2C934A8B00E2E514 /* screenSharingTests.swift */; };
 		1F4E5B182C934A8B00E2E514 /* screenSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E5B172C934A8B00E2E514 /* screenSharingUITests.swift */; };
 		1F4E5B1A2C934A8B00E2E514 /* screenSharingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E5B192C934A8B00E2E514 /* screenSharingUITestsLaunchTests.swift */; };
+		5D75BAEB909F08DDF7F65CD4 /* Pods_screenSharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CFD64551329BDCE520039A /* Pods_screenSharingTests.framework */; };
+		E88D4857BE10D9B5629B936A /* Pods_screenSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E9AF3A71618BBE41099CAE /* Pods_screenSharing.framework */; };
+		FE0DD4AB108376FA59932192 /* Pods_screenSharing_screenSharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E205D51DAEFADCA6D3063F0 /* Pods_screenSharing_screenSharingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E205D51DAEFADCA6D3063F0 /* Pods_screenSharing_screenSharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_screenSharing_screenSharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4E5AF92C934A8A00E2E514 /* screenSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = screenSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4E5AFC2C934A8A00E2E514 /* screenSharingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenSharingApp.swift; sourceTree = "<group>"; };
 		1F4E5AFE2C934A8A00E2E514 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,14 @@
 		1F4E5B132C934A8B00E2E514 /* screenSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = screenSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4E5B172C934A8B00E2E514 /* screenSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenSharingUITests.swift; sourceTree = "<group>"; };
 		1F4E5B192C934A8B00E2E514 /* screenSharingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenSharingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		30E9AF3A71618BBE41099CAE /* Pods_screenSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_screenSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F3D4921BCBA09C7AAAC44E /* Pods-screenSharing-screenSharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screenSharing-screenSharingUITests.debug.xcconfig"; path = "Target Support Files/Pods-screenSharing-screenSharingUITests/Pods-screenSharing-screenSharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70CFD64551329BDCE520039A /* Pods_screenSharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_screenSharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B5059F1E8ADBD9F3410CE36 /* Pods-screenSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screenSharing.release.xcconfig"; path = "Target Support Files/Pods-screenSharing/Pods-screenSharing.release.xcconfig"; sourceTree = "<group>"; };
+		E26018C20F48133AA970E555 /* Pods-screenSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screenSharing.debug.xcconfig"; path = "Target Support Files/Pods-screenSharing/Pods-screenSharing.debug.xcconfig"; sourceTree = "<group>"; };
+		E6AD201C98E76937A51A1BF4 /* Pods-screenSharing-screenSharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screenSharing-screenSharingUITests.release.xcconfig"; path = "Target Support Files/Pods-screenSharing-screenSharingUITests/Pods-screenSharing-screenSharingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F13C949E5532B8B7D4E2AFAB /* Pods-screenSharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screenSharingTests.debug.xcconfig"; path = "Target Support Files/Pods-screenSharingTests/Pods-screenSharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE26346E25E1B60557F4BD4C /* Pods-screenSharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screenSharingTests.release.xcconfig"; path = "Target Support Files/Pods-screenSharingTests/Pods-screenSharingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88D4857BE10D9B5629B936A /* Pods_screenSharing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D75BAEB909F08DDF7F65CD4 /* Pods_screenSharingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0DD4AB108376FA59932192 /* Pods_screenSharing_screenSharingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +93,8 @@
 				1F4E5B0C2C934A8B00E2E514 /* screenSharingTests */,
 				1F4E5B162C934A8B00E2E514 /* screenSharingUITests */,
 				1F4E5AFA2C934A8A00E2E514 /* Products */,
+				A19DAE23FD2AD36522C5D4F7 /* Pods */,
+				6ACE0930AC323D93DB4B338E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,29 @@
 			path = screenSharingUITests;
 			sourceTree = "<group>";
 		};
+		6ACE0930AC323D93DB4B338E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30E9AF3A71618BBE41099CAE /* Pods_screenSharing.framework */,
+				1E205D51DAEFADCA6D3063F0 /* Pods_screenSharing_screenSharingUITests.framework */,
+				70CFD64551329BDCE520039A /* Pods_screenSharingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A19DAE23FD2AD36522C5D4F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E26018C20F48133AA970E555 /* Pods-screenSharing.debug.xcconfig */,
+				8B5059F1E8ADBD9F3410CE36 /* Pods-screenSharing.release.xcconfig */,
+				66F3D4921BCBA09C7AAAC44E /* Pods-screenSharing-screenSharingUITests.debug.xcconfig */,
+				E6AD201C98E76937A51A1BF4 /* Pods-screenSharing-screenSharingUITests.release.xcconfig */,
+				F13C949E5532B8B7D4E2AFAB /* Pods-screenSharingTests.debug.xcconfig */,
+				FE26346E25E1B60557F4BD4C /* Pods-screenSharingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F4E5B1D2C934A8B00E2E514 /* Build configuration list for PBXNativeTarget "screenSharing" */;
 			buildPhases = (
+				7466EA3C2CC6107A2FF44987 /* [CP] Check Pods Manifest.lock */,
 				1F4E5AF52C934A8A00E2E514 /* Sources */,
 				1F4E5AF62C934A8A00E2E514 /* Frameworks */,
 				1F4E5AF72C934A8A00E2E514 /* Resources */,
+				D74D7EF59BEF0E58C09EA968 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F4E5B202C934A8B00E2E514 /* Build configuration list for PBXNativeTarget "screenSharingTests" */;
 			buildPhases = (
+				E9621261E46BB54654B4DAD7 /* [CP] Check Pods Manifest.lock */,
 				1F4E5B052C934A8B00E2E514 /* Sources */,
 				1F4E5B062C934A8B00E2E514 /* Frameworks */,
 				1F4E5B072C934A8B00E2E514 /* Resources */,
@@ -169,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F4E5B232C934A8B00E2E514 /* Build configuration list for PBXNativeTarget "screenSharingUITests" */;
 			buildPhases = (
+				B515FA2C8DFFED9E73D9A45F /* [CP] Check Pods Manifest.lock */,
 				1F4E5B0F2C934A8B00E2E514 /* Sources */,
 				1F4E5B102C934A8B00E2E514 /* Frameworks */,
 				1F4E5B112C934A8B00E2E514 /* Resources */,
+				F92295D21AB5F597CDAAEED4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7466EA3C2CC6107A2FF44987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-screenSharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B515FA2C8DFFED9E73D9A45F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-screenSharing-screenSharingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74D7EF59BEF0E58C09EA968 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-screenSharing/Pods-screenSharing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-screenSharing/Pods-screenSharing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-screenSharing/Pods-screenSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9621261E46BB54654B4DAD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-screenSharingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92295D21AB5F597CDAAEED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-screenSharing-screenSharingUITests/Pods-screenSharing-screenSharingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-screenSharing-screenSharingUITests/Pods-screenSharing-screenSharingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-screenSharing-screenSharingUITests/Pods-screenSharing-screenSharingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F4E5AF52C934A8A00E2E514 /* Sources */ = {
@@ -416,6 +564,7 @@
 		};
 		1F4E5B1E2C934A8B00E2E514 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E26018C20F48133AA970E555 /* Pods-screenSharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +573,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"screenSharing/Preview Content\"";
 				DEVELOPMENT_TEAM = 6H2477PAYG;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -445,6 +595,7 @@
 		};
 		1F4E5B1F2C934A8B00E2E514 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B5059F1E8ADBD9F3410CE36 /* Pods-screenSharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +604,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"screenSharing/Preview Content\"";
 				DEVELOPMENT_TEAM = 6H2477PAYG;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -474,6 +626,7 @@
 		};
 		1F4E5B212C934A8B00E2E514 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13C949E5532B8B7D4E2AFAB /* Pods-screenSharingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +647,7 @@
 		};
 		1F4E5B222C934A8B00E2E514 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE26346E25E1B60557F4BD4C /* Pods-screenSharingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +668,7 @@
 		};
 		1F4E5B242C934A8B00E2E514 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F3D4921BCBA09C7AAAC44E /* Pods-screenSharing-screenSharingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +687,7 @@
 		};
 		1F4E5B252C934A8B00E2E514 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6AD201C98E76937A51A1BF4 /* Pods-screenSharing-screenSharingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
