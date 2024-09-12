@@ -177,11 +177,13 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/StreamVideo/StreamVideo.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StreamVideoSwiftUI/StreamVideoSwiftUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/StreamVideo/StreamWebRTC.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/StreamVideo/StreamVideo.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/StreamVideoSwiftUI/StreamVideoSwiftUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/StreamVideo/StreamWebRTC.framework"
 fi

@@ -7,6 +7,7 @@ target 'screenSharing' do
 
   # Pods for screenSharing
   pod 'StreamVideo'  # Add this line to include the StreamVideo SDK
+  pod 'StreamVideoSwiftUI'
 
   target 'screenSharingTests' do
     inherit! :search_paths

@@ -111,7 +111,7 @@
 		1F4E5AFB2C934A8A00E2E514 /* screenSharing */ = {
 			isa = PBXGroup;
 			children = (
-				1F4E5AFC2C934A8A00E2E514 /* screenSharingApp.swift */,
+				1F4E5B2C2C939B8300E2E514 /* Main */,
 				1F4E5AFE2C934A8A00E2E514 /* ContentView.swift */,
 				1F4E5B002C934A8B00E2E514 /* Assets.xcassets */,
 				1F4E5B022C934A8B00E2E514 /* Preview Content */,
@@ -142,6 +142,14 @@
 				1F4E5B192C934A8B00E2E514 /* screenSharingUITestsLaunchTests.swift */,
 			);
 			path = screenSharingUITests;
+			sourceTree = "<group>";
+		};
+		1F4E5B2C2C939B8300E2E514 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1F4E5AFC2C934A8A00E2E514 /* screenSharingApp.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		6ACE0930AC323D93DB4B338E /* Frameworks */ = {
@@ -495,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -552,7 +560,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -575,11 +583,14 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ScreenRecoder requires camera access in order to capture and transmit video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ScreenRecoder requires microphone access in order to capture and transmit audio";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -606,11 +617,14 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ScreenRecoder requires camera access in order to capture and transmit video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "ScreenRecoder requires microphone access in order to capture and transmit audio";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
