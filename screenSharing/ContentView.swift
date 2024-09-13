@@ -13,7 +13,7 @@ struct ContentView: View {
     @Injected(\.streamVideo) var streamVideo
     
     @StateObject var callViewModel = CallViewModel()
-    @State var callId = ""
+    @State var callId = "753GS6hFQiXv"
     
     
     var body: some View {

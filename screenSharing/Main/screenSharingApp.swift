@@ -14,7 +14,7 @@ struct screenSharingApp: App {
     @State var streamVideo: StreamVideoUI?
 
         init() {
-            setupStreamVideo(with: "key1", userCredentials: .demoUser)
+            setupStreamVideo(with: "mmhfdzb5evj2", userCredentials: .demoUser)
         }
 
         private func setupStreamVideo(
@@ -47,11 +47,11 @@ struct UserCredentials {
 extension UserCredentials {
     static let demoUser = UserCredentials(
         user: User(
-            id: "testuser",
-            name: "Test User",
+            id: "Satele_Shan",
+            name: "Test User 1",
             imageURL: URL(string: "https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg")!,
             customData: [:]
         ),
-        token: UserToken(rawValue: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdHJlYW0tdmlkZW8tZ29AdjAuMS4wIiwic3ViIjoidXNlci90ZXN0dXNlciIsImlhdCI6MTY2NjY5ODczMSwidXNlcl9pZCI6InRlc3R1c2VyIn0.h4lnaF6OFYaNPjeK8uFkKirR5kHtj1vAKuipq3A5nM0")
+        token: UserToken(rawValue: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL1NhdGVsZV9TaGFuIiwidXNlcl9pZCI6IlNhdGVsZV9TaGFuIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3MjYyMjk0OTUsImV4cCI6MTcyNjgzNDI5NX0.Ygj9XX-5EWpLqfrml-UUgXLkJxUXHUgZJv6TUH0hDuE")
     )
 }
