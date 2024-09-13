@@ -15,7 +15,6 @@ struct ContentView: View {
     @StateObject var callViewModel = CallViewModel()
     @State var callId = "753GS6hFQiXv"
     
-    
     var body: some View {
         VStack {
             TextField("Insert a call id", text: $callId)
