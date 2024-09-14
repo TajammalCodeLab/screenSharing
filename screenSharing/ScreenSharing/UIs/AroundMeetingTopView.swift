@@ -19,7 +19,7 @@ struct AroundMeetingTopView: View {
             Button {
                 
             } label: {
-                Image(systemName: "chevron.")
+                Image(.image4)
             }
             .font(.title2)
             .bold()

@@ -58,13 +58,6 @@ struct MeetingOptionsView: View {
             
             /// TOP BAR FUNCTIONALLITY
             .toolbar {
-                ToolbarItem(placement: .topBarTrailing){
-                    Image("amos")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 32, height: 32)
-                        .clipShape(Circle())
-                }
                 
                 ToolbarItem(placement: .topBarLeading){
                     Text("Welcome To Shera").bold()
