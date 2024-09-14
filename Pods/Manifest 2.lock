@@ -1,0 +1,25 @@
+PODS:
+  - StreamVideo (1.10.0):
+    - SwiftProtobuf (~> 1.18.0)
+  - StreamVideoSwiftUI (1.10.0):
+    - StreamVideo (= 1.10.0)
+  - SwiftProtobuf (1.18.0)
+
+DEPENDENCIES:
+  - StreamVideo
+  - StreamVideoSwiftUI
+
+SPEC REPOS:
+  trunk:
+    - StreamVideo
+    - StreamVideoSwiftUI
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  StreamVideo: a70dfc29eb9c39440ff0f4f0e2b0b6fa4ab3c18c
+  StreamVideoSwiftUI: 5f8986831f50cb6122a4529942f8c346723bbdee
+  SwiftProtobuf: c3c12645230d9b09c72267e0de89468c5543bd86
+
+PODFILE CHECKSUM: c4acdc0b0ed42caf916df7cb9c44bfe8481bd50a
+
+COCOAPODS: 1.15.2
