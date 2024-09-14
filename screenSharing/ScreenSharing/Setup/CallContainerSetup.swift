@@ -13,7 +13,7 @@ struct CallContainerSetup: View {
     private let apiKey: String = "mmhfdzb5evj2" // The API key can be found in the Credentials section
     private let userId: String = "Satele_Shan" // The User Id can be found in the Credentials section
     private let token: String = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiS2ktQWRpLU11bmRpIiwiaXNzIjoicHJvbnRvIiwic3ViIjoidXNlci9LaS1BZGktTXVuZGkiLCJpYXQiOjE2OTU4MTU1NzAsImV4cCI6MTY5NjQyMDM3NX0.r58E2FvzYV34sMATK13-m6cz7SFZzG-tB7ehi_sQgjA" // The Token can be found in the Credentials section
-    private let callId: String = "753GS6hFQiXv" // The CallId can be found in the Credentials section
+    private let callId: String = "AoIVTQ00orVv" // The CallId can be found in the Credentials section
     
     init() {
         let user = User(
