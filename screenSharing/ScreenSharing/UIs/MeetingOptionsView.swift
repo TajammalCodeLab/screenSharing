@@ -14,6 +14,7 @@ struct MeetingOptionsView: View {
     
     var body: some View {
         NavigationView {
+            /// NEW MEETING AND START MEETING BOX
             HStack {
                 NavigationLink {
                     PreJoinScreen()
@@ -53,7 +54,9 @@ struct MeetingOptionsView: View {
                 .background(.ultraThinMaterial)
                 .cornerRadius(20)
             }
-            .navigationTitle("dfd")
+            .navigationTitle("")
+            
+            /// TOP BAR FUNCTIONALLITY
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing){
                     Image("amos")
@@ -64,25 +67,11 @@ struct MeetingOptionsView: View {
                 }
                 
                 ToolbarItem(placement: .topBarLeading){
-                    NavigationLink {
-                        PreJoinScreen()
-                    } label: {
-                        Text("Start Meeting")
-                    }
-                    .buttonStyle(.bordered)
-                }
-                
-                ToolbarItem(placement: .principal){
-                    Button {
-                        
-                    } label: {
-                        Text("Schedule")
-                    }
-                    .buttonStyle(.bordered)
+                    Text("Welcome To Shera").bold()
                 }
                 
                 ToolbarItem(placement: .topBarTrailing) {
-                    Image(.sonoma)
+                    Image(.image5)
                         .resizable()
                         .scaledToFit()
                         .clipShape(Circle())

@@ -3,7 +3,6 @@ import SwiftUI
 import AVFoundation
 
 // MARK: LIVE iOS DEVICE CAMERA
-//  https://github.com/daved01/LiveCameraSwiftUI/tree/main
 
 
 class ViewController: UIViewController {

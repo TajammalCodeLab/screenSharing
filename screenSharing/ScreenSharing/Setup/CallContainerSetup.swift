@@ -1,8 +1,5 @@
 //
 //  CallContainerSetup.swift
-//  VideoConferencingSwiftUI
-//
-//  Created by amos.gyamfi@getstream.io on 18.9.2023.
 //
 
 import SwiftUI
@@ -40,10 +37,10 @@ struct CallContainerSetup: View {
             VStack {
                 if viewModel.call != nil {
                     //CallContainer(viewFactory: DefaultViewFactory.shared, viewModel: viewModel)
-                    
-                    //CallContainer(viewFactory: CustomViewFactory(), viewModel: viewModel)
+                    CallContainer(viewFactory: CustomViewFactory(), viewModel: viewModel)
                 } else {
-                    Text("loading...")
+                    CallContainer(viewFactory: CustomViewFactory(), viewModel: viewModel)
+                    //Text("loading...")
                 }
             }
             .ignoresSafeArea()

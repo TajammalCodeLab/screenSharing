@@ -3,7 +3,7 @@
 import SwiftUI
 
 @main
-struct VideoConferencingSwiftUIApp: App {
+struct ScreensharingApp: App {
     var body: some Scene {
         WindowGroup {
             //PreJoinScreen()

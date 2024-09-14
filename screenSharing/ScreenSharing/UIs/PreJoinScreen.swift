@@ -1,9 +1,6 @@
 //
 //  PreJoinScreen.swift
-//  SwiftUIAroundClone
-//
-//  Created by amos.gyamfi@getstream.io on 10.7.2023.
-//
+
 
 import SwiftUI
 import StreamVideo
