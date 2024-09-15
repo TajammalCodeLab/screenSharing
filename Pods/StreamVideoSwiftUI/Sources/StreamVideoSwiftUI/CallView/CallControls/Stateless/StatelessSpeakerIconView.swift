@@ -61,4 +61,3 @@ public struct StatelessSpeakerIconView: View {
         )
     }
 }
-

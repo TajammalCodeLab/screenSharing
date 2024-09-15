@@ -20,6 +20,9 @@
 		1F4E5B0E2C934A8B00E2E514 /* screenSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E5B0D2C934A8B00E2E514 /* screenSharingTests.swift */; };
 		1F4E5B182C934A8B00E2E514 /* screenSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E5B172C934A8B00E2E514 /* screenSharingUITests.swift */; };
 		1F4E5B1A2C934A8B00E2E514 /* screenSharingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E5B192C934A8B00E2E514 /* screenSharingUITestsLaunchTests.swift */; };
+		1F5CA5082C9625DB00C4B658 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = 1F5CA5072C9625DB00C4B658 /* SwiftProtobuf */; };
+		1F5CA50A2C9625DB00C4B658 /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 1F5CA5092C9625DB00C4B658 /* SwiftProtobufPluginLibrary */; };
+		1F5CA50C2C9625DB00C4B658 /* protoc-gen-swift in Frameworks */ = {isa = PBXBuildFile; productRef = 1F5CA50B2C9625DB00C4B658 /* protoc-gen-swift */; };
 		5D75BAEB909F08DDF7F65CD4 /* Pods_screenSharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70CFD64551329BDCE520039A /* Pods_screenSharingTests.framework */; };
 		E88D4857BE10D9B5629B936A /* Pods_screenSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E9AF3A71618BBE41099CAE /* Pods_screenSharing.framework */; };
 		FE0DD4AB108376FA59932192 /* Pods_screenSharing_screenSharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E205D51DAEFADCA6D3063F0 /* Pods_screenSharing_screenSharingUITests.framework */; };
@@ -75,7 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5CA50C2C9625DB00C4B658 /* protoc-gen-swift in Frameworks */,
+				1F5CA50A2C9625DB00C4B658 /* SwiftProtobufPluginLibrary in Frameworks */,
 				E88D4857BE10D9B5629B936A /* Pods_screenSharing.framework in Frameworks */,
+				1F5CA5082C9625DB00C4B658 /* SwiftProtobuf in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +265,11 @@
 			dependencies = (
 			);
 			name = screenSharing;
+			packageProductDependencies = (
+				1F5CA5072C9625DB00C4B658 /* SwiftProtobuf */,
+				1F5CA5092C9625DB00C4B658 /* SwiftProtobufPluginLibrary */,
+				1F5CA50B2C9625DB00C4B658 /* protoc-gen-swift */,
+			);
 			productName = screenSharing;
 			productReference = 1F4E5AF92C934A8A00E2E514 /* screenSharing.app */;
 			productType = "com.apple.product-type.application";
@@ -334,6 +345,9 @@
 				Base,
 			);
 			mainGroup = 1F4E5AF02C934A8A00E2E514;
+			packageReferences = (
+				1F5CA5062C9625DB00C4B658 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+			);
 			productRefGroup = 1F4E5AFA2C934A8A00E2E514 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -830,6 +844,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F5CA5062C9625DB00C4B658 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.28.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F5CA5072C9625DB00C4B658 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F5CA5062C9625DB00C4B658 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		1F5CA5092C9625DB00C4B658 /* SwiftProtobufPluginLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F5CA5062C9625DB00C4B658 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobufPluginLibrary;
+		};
+		1F5CA50B2C9625DB00C4B658 /* protoc-gen-swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F5CA5062C9625DB00C4B658 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = "protoc-gen-swift";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F4E5AF12C934A8A00E2E514 /* Project object */;
 }

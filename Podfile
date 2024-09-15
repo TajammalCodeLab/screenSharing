@@ -6,7 +6,7 @@ target 'screenSharing' do
   use_frameworks!
 
   # Pods for screenSharing
-  pod 'StreamVideo'  # Add this line to include the StreamVideo SDK
+  pod 'StreamVideo' 
   pod 'StreamVideoSwiftUI'
 
   target 'screenSharingTests' do
