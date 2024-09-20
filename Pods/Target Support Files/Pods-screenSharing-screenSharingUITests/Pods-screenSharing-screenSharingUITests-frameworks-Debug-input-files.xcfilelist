@@ -1,5 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-screenSharing-screenSharingUITests/Pods-screenSharing-screenSharingUITests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/StreamVideo/StreamVideo.framework
-${BUILT_PRODUCTS_DIR}/StreamVideoSwiftUI/StreamVideoSwiftUI.framework
-${BUILT_PRODUCTS_DIR}/SwiftProtobuf/SwiftProtobuf.framework
-${PODS_XCFRAMEWORKS_BUILD_DIR}/StreamVideo/StreamWebRTC.framework/StreamWebRTC

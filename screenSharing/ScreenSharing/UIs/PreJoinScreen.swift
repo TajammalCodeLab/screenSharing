@@ -69,7 +69,7 @@ struct PreJoinScreen: View {
                     .overlay(audioOn ? Text("Join").foregroundColor(.white) : Text("Join muted").foregroundColor(.white))
                     .contentTransition(.interpolate)
             }
-            .fullScreenCover(isPresented: $isJoined, content: CallContainerSetup.init)
+//            .fullScreenCover(isPresented: $isJoined, content: CallContainerSetup.init)
             
             Spacer()
             
