@@ -68,11 +68,21 @@
 			);
 			target = 1FA858642CA45527001F6B67 /* BackgroundScreenSharingBC */;
 		};
+		1FA858AE2CA4729F001F6B67 /* Exceptions for "screenSharingApp" folder in "screenSharingApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1FA857F22CA44645001F6B67 /* screenSharingApp */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1FA857F52CA44645001F6B67 /* screenSharingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1FA858AE2CA4729F001F6B67 /* Exceptions for "screenSharingApp" folder in "screenSharingApp" target */,
+			);
 			path = screenSharingApp;
 			sourceTree = "<group>";
 		};
@@ -524,6 +534,7 @@
 				DEVELOPMENT_TEAM = 6H2477PAYG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = screenSharingApp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "use camera";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "use mic";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -556,6 +567,7 @@
 				DEVELOPMENT_TEAM = 6H2477PAYG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = screenSharingApp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "use camera";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "use mic";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

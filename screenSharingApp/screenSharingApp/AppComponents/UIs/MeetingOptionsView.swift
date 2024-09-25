@@ -11,6 +11,7 @@ import StreamVideoSwiftUI
 struct MeetingOptionsView: View {
     let borderGradient = LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing)
     
+    
     var body: some View {
         NavigationView {
             HStack {
@@ -55,7 +56,7 @@ struct MeetingOptionsView: View {
             .navigationTitle("")
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing){
-                    Image("amos")
+                    Image(.sonoma)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 32, height: 32)

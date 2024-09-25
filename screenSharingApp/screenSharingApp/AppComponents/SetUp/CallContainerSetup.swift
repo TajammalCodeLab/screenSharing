@@ -10,8 +10,8 @@ import StreamVideo
 import StreamVideoSwiftUI
 
 struct CallContainerSetup: View {
-    @ObservedObject var viewModel: CallViewModel
     
+    @ObservedObject var viewModel: CallViewModel
     private var client: StreamVideo
     private let apiKey: String = "mmhfdzb5evj2" // The API key can be found in the Credentials section
     private let userId: String = "Jabba_The_Hutt" // The User Id can be found in the Credentials section
