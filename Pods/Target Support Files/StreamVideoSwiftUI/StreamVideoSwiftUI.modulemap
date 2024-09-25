@@ -1,6 +1,0 @@
-framework module StreamVideoSwiftUI {
-  umbrella header "StreamVideoSwiftUI-umbrella.h"
-
-  export *
-  module * { export * }
-}

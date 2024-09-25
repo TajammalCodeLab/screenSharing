@@ -1,6 +1,0 @@
-framework module StreamVideo {
-  umbrella header "StreamVideo-umbrella.h"
-
-  export *
-  module * { export * }
-}
