@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1FA858682CA45527001F6B67 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA858672CA45527001F6B67 /* ReplayKit.framework */; };
 		1FA8586F2CA45527001F6B67 /* BackgroundScreenSharingBC.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1FA858652CA45527001F6B67 /* BackgroundScreenSharingBC.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1FA858922CA45775001F6B67 /* StreamVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 1FA858912CA45775001F6B67 /* StreamVideo */; };
+		1FA858942CA45775001F6B67 /* StreamVideoSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1FA858932CA45775001F6B67 /* StreamVideoSwiftUI */; };
+		1FA858962CA4585F001F6B67 /* StreamVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 1FA858952CA4585F001F6B67 /* StreamVideo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +101,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA858942CA45775001F6B67 /* StreamVideoSwiftUI in Frameworks */,
+				1FA858922CA45775001F6B67 /* StreamVideo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FA858962CA4585F001F6B67 /* StreamVideo in Frameworks */,
 				1FA858682CA45527001F6B67 /* ReplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +185,8 @@
 			);
 			name = screenSharingApp;
 			packageProductDependencies = (
+				1FA858912CA45775001F6B67 /* StreamVideo */,
+				1FA858932CA45775001F6B67 /* StreamVideoSwiftUI */,
 			);
 			productName = screenSharingApp;
 			productReference = 1FA857F32CA44645001F6B67 /* screenSharingApp.app */;
@@ -247,6 +255,7 @@
 			);
 			name = BackgroundScreenSharingBC;
 			packageProductDependencies = (
+				1FA858952CA4585F001F6B67 /* StreamVideo */,
 			);
 			productName = BackgroundScreenSharingBC;
 			productReference = 1FA858652CA45527001F6B67 /* BackgroundScreenSharingBC.appex */;
@@ -287,6 +296,9 @@
 			);
 			mainGroup = 1FA857EA2CA44645001F6B67;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1FA858902CA45775001F6B67 /* XCRemoteSwiftPackageReference "stream-video-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1FA857F42CA44645001F6B67 /* Products */;
 			projectDirPath = "";
@@ -737,6 +749,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FA858902CA45775001F6B67 /* XCRemoteSwiftPackageReference "stream-video-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-video-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FA858912CA45775001F6B67 /* StreamVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FA858902CA45775001F6B67 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideo;
+		};
+		1FA858932CA45775001F6B67 /* StreamVideoSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FA858902CA45775001F6B67 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideoSwiftUI;
+		};
+		1FA858952CA4585F001F6B67 /* StreamVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FA858902CA45775001F6B67 /* XCRemoteSwiftPackageReference "stream-video-swift" */;
+			productName = StreamVideo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1FA857EB2CA44645001F6B67 /* Project object */;
 }
