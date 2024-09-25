@@ -11,5 +11,7 @@
 		<key>RPBroadcastProcessMode</key>
 		<string>RPBroadcastProcessModeSampleBuffer</string>
 	</dict>
+	<key>BroadcastAppGroupIdentifier</key>
+	<string>group.com.paractices.screenSharingApp</string>
 </dict>
 </plist>
