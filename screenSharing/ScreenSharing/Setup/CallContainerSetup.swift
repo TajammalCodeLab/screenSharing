@@ -11,8 +11,8 @@ struct CallContainerSetup: View {
     
     private var client: StreamVideo
     private let apiKey: String = "mmhfdzb5evj2" // The API key can be found in the Credentials section
-    private let userId: String = "Satele_Shan" // The User Id can be found in the Credentials section
-    private let token: String = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL0x1a2VfU2t5d2Fsa2VyIiwidXNlcl9pZCI6Ikx1a2VfU2t5d2Fsa2VyIiwidmFsaWRpdHlfaW5fc2Vjb25kcyI6NjA0ODAwLCJpYXQiOjE3MjYzMjQzOTEsImV4cCI6MTcyNjkyOTE5MX0.UdSKs98RemKlmXGAybkdXe5DML2dLogN4vfz75hNojc" // The Token can be found in the Credentials section
+    private let userId: String = "Rahm_Kota" // The User Id can be found in the Credentials section
+    private let token: String = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Byb250by5nZXRzdHJlYW0uaW8iLCJzdWIiOiJ1c2VyL1JhaG1fS290YSIsInVzZXJfaWQiOiJSYWhtX0tvdGEiLCJ2YWxpZGl0eV9pbl9zZWNvbmRzIjo2MDQ4MDAsImlhdCI6MTcyNzI2NzM0MSwiZXhwIjoxNzI3ODcyMTQxfQ.hfnIFRND8zuYDoBmKhK5JDJMsXBoABe1tEEEECdz57E" // The Token can be found in the Credentials section
     private let callId: String = "AoIVTQ00orVv" // The CallId can be found in the Credentials section
     
     init() {
