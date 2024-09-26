@@ -113,7 +113,7 @@ struct AroundMeetingControlsView: View {
             .frame(width: 42)
             
             Button {
-                isScreenSharing ? viewModel.stopScreensharing() : viewModel.startScreensharing(type: .broadcast)
+                isScreenSharing ? viewModel.stopScreensharing() : viewModel.startScreensharing(type: .inApp)
                 isScreenSharing.toggle()
             } label: {
                 VStack(spacing: 12) {
